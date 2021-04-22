@@ -1,0 +1,36 @@
+# Site settings
+title: İmran KAÇAN
+description: ' '
+url: 'https://github.com/imrankacan/imrankacan.github.io'
+baseurl: ''
+profilepic: '/images/imran.jpg'
+bkimage: '/images/cover.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'İmran Kaçan'
+  #email: 
+  twitter_username: imrankacann
+  instagram_username: imran.kacan
+  github_username:  imrankacan
+  linkedin_username:  imrankacan
+  
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md',]
