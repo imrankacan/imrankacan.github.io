@@ -1,8 +1,8 @@
 title: İmran KAÇAN ☺
 description: Digital Forensic Engineer
 permalink: ':title/'
-baseurl: "/blog" 
-url: "https://github.com/imrankacan/imrankacan.github.io" 
+baseurl: "" 
+url: "https://github.com/imrankacan/imrankacan.github.io/tree/main/blog" 
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
