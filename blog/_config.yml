@@ -1,0 +1,35 @@
+title: İmran KAÇAN ☺
+description: Digital Forensic Engineer
+permalink: ':title/'
+baseurl: "/blog" 
+url: "https://imrankacan.github.io/" 
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: İmran KAÇAN 
+author-img: imran.jpg 
+about-author: I am a digital forensics engineering student. 
+social-twitter: imrankacann 
+social-instagram: imran.kacan
+#social-facebook: 
+social-github: imrankacan 
+social-linkedin: imrankacan  
+#social-email:
+
+# Disqus
+discus-identifier: imrankacan # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
